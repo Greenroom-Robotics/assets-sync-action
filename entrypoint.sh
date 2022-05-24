@@ -116,7 +116,7 @@ do
     -b ${base_branch} \
     -h ${head_branch} \
     --no-edit \
-    "Update assets to ${version}")
+    "chore: asset-sync update to ${version}")
 
   rm -rf ${tmpdir}
 
